@@ -1,0 +1,13 @@
+.pre-project1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 39px;
+}
+.pre-project2 {
+  font: var(--headline5);
+  text-align: center;
+}
+.arrow-content {
+  width: 100%;
+  text-align: center;
+}

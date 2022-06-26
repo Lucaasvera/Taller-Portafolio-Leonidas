@@ -1,0 +1,38 @@
+.testimonios {
+  margin-top: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  backdrop-filter: blur(39.7657px);
+  margin-bottom: 40px;
+}
+.testim-image {
+  margin-top: 24px;
+}
+.testimonios p:nth-of-type(1) {
+  font: var(--body1);
+  padding-block-start: 14px;
+
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+.testimonios p:nth-of-type(2) {
+  font: var(--caption);
+  opacity: 0.5;
+
+  padding-block-end: 24px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+@media screen and (min-width: 768px) {
+  .testimonios {
+    width: 100%;
+    height: 493px;
+  }
+  .testimonios p:nth-of-type(1) {
+    font: var(--headline4);
+  }
+  .testimonios p:nth-of-type(2) {
+    font: var(--headline5);
+  }
+}
